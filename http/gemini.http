@@ -1,0 +1,10 @@
+###
+POST localhost:8080/gemini
+Content-Type: application/json
+
+{
+  "query": "다음 주문 정보를 분석하고 최종 발송 시한을 계산해주세요. deadline이 도착기한입니다. 배달트럭으로 운송합니다. ",
+  "start": "서울센터, 서울특별시 송파구 송파대로55",
+  "destination": "부산센터, 부산 동구 중앙대로 206",
+  "deadline": "2024-12-09 18:00"
+}
